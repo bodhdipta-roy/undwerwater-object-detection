@@ -100,7 +100,7 @@ if __name__ == "__main__":
     if not os.path.exists(MODEL_PATH):
         model = train_model(DATA_YAML, epochs=EPOCHS)
         # After training, the best weights are usually saved at:
-        best_path = os.path.join("runs", "train", "underwater_yolov8l", "weights", "best_modeel-2.pt")
+        best_path = os.path.join("runs", "train", "underwater_yolov8l", "weights", "best.pt")
         if os.path.exists(best_path):
             MODEL_PATH = best_path
     else:

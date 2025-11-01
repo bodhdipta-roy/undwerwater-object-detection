@@ -9,8 +9,8 @@ import time
 from ultralytics import YOLO
 
 # === CONFIGURATION ===
-MODEL_PATH = r"D:\Projects\UnderWaterObjectDetection\best_model-2.2.pt"  # your uploaded model
-VIDEO_PATH = r"D:\Projects\UnderWaterObjectDetection\2.mp4"  # or None for webcam
+MODEL_PATH = r"D:\Project\undwerwater-object-detection\best.pt"  # your uploaded model
+VIDEO_PATH = r"D:\Project\undwerwater-object-detection\UnderWater_Animal_Video\Octopus1.mp4\Octopus1.mp4"  # or None for webcam
 CONF_THRESHOLD = 0.45
 # ======================
 
