@@ -163,7 +163,7 @@ After training, modify the detector initialization:
 detector = UnderwaterFishDetector()
 
 # With:
-detector = UnderwaterFishDetector("runs/detect/fish_detection/weights/best.pt")
+detector = UnderwaterFishDetector("runs/detect/fish_detection/weights/best_modeel-2.pt")
 ```
 
 ### Run with Custom Model
