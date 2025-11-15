@@ -21,7 +21,7 @@ python --version
 # Create virtual environment
 python -m venv fish_detection_env
 
-# Activate it
+# Activate
 # Windows:
 fish_detection_env\Scripts\activate
 # macOS/Linux:
