@@ -1,0 +1,10 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+python-multipart>=0.0.9
+Pillow>=10.3.0
+numpy>=1.26.0
+opencv-python>=4.8.0
+ultralytics>=8.2.0
+# PyTorch is required by ultralytics; install a build compatible with your system/GPU
+# Example (CPU-only): pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
