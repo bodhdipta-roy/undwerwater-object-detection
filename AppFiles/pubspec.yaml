@@ -1,0 +1,31 @@
+name: untitled
+description: "Underwater Object Detection App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+5  # or latest version
+  camera_windows: ^0.2.1+6
+  http: ^1.2.0
+  http_parser: ^4.0.2
+  image_picker: ^1.0.7
+  file_picker: ^8.0.0
+  cupertino_icons: ^1.0.8
+  video_player: ^2.8.6
+  path_provider: ^2.1.2
+  image_gallery_saver: ^2.0.3
+  open_filex: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
